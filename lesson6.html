@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Confirm</title>
+    </head>
+    <body>
+        <script>
+            var command = window.prompt ("Введите действие", "");
+            if (command == null){
+                document.write('Cancel pressed');
+            }
+            else 
+            switch (parseInt(command)){
+                case 1 : alert ('Выбрано действие 1'); break;
+                case 2 : alert ('Выбрано действие 2'); break;
+                case 3 : alert ('Выбрано действие 3'); break;
+                case 4 : alert ('Выбрано действие 4'); break;
+                default: alert ('Неизвестное действие');
+            }
+        </script>
+    </body>
+</html>
